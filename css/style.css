@@ -1,0 +1,50 @@
+body    {
+    background-color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .tweet   {
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  header  {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ada, .usuario    {
+    margin: 0px;
+    margin-left: 10px;
+  }
+  
+  .imagen {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  
+  footer  {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  footer .right a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+  }
+  
+  span{
+    margin: 5px;
+  }
+    
+
+ 
